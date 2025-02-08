@@ -1,4 +1,5 @@
 <script setup>
+
 defineProps({
   projName: {
     type: String,
@@ -22,7 +23,7 @@ defineProps({
   <div class="projContainer">
 
     <div class="projectPicContainer">
-      <div class="projectPic" :style="'background-image: url(../src/assets/' + projPic + ');'">
+      <div class="projectPic" :style="'background-image: url(./src/assets/' + projPic + ');'">
       </div>
     </div>
 
@@ -69,6 +70,7 @@ defineProps({
   background-size: cover;
   background-position: 50% 50%;
   aspect-ratio: 16/9;
+  background-color: #222222;
   @media screen and (width <= 600px){
     width: 90vw;
     height: auto;

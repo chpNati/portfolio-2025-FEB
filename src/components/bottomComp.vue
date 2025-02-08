@@ -30,6 +30,14 @@
   align-items: baseline;
   margin: 2rem 1rem 2rem 1rem;
 
+  @media screen and (width <= 600px){
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin: 3rem;
+  }
+
   a {
     cursor: pointer;
     text-decoration: none;
@@ -61,6 +69,14 @@
   justify-content: flex-end;
   align-items: flex-end;
   align-self: flex-end;
-}
+
+  @media screen and (width <= 600px) {
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+  }
+
+
 
 </style>

@@ -9,7 +9,7 @@ import PrimaryTemplate from "./PrimaryTemplate.vue";
     <div class="container">
       <div class="pictureContainer">
         <div class="picture"
-             :style="'background-image: url(../src/assets/IMG_6010.JPG);'"></div>
+             :style="'background-image: url(./src/assets/IMG_6010.JPG);'"></div>
       </div>
       <div class="infoContainer">
         <h1 class="bigText">
